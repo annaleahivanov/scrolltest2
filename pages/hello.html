@@ -156,7 +156,7 @@
         el.classList.add('is-active');
 
 		function makeBold(input, wordsToBold) {
-    return input.replace(new RegExp('(\\b)(' + wordsToBold + ')(\\b)','ig'), '$1<b>$2</b>$3');
+    return input.replace(new RegExp('(\\b)(' + wordsToBold + ')(\\b)','ig'), '$1<b><font color=\'red\'>$2</font></b>$3');
 }
 
         // update graphic based on step
